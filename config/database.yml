@@ -26,7 +26,7 @@ development:
   database:   upload
   username:   arqsoft
   password:   1234  
-  host:       upload_db
+  host:       upload-db
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
