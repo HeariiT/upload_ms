@@ -1,4 +1,4 @@
-FROM ruby:2.2.2
+FROM ruby:2.3
 MAINTAINER Luis Ernesto Gil Castellanos <luegilca@unal.edu.co>
 
 RUN mkdir /upload_ms
