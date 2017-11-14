@@ -12,7 +12,7 @@ services:
       MYSQL_HOST: upload-db
   upload-ms:
     build: . 
-    # image: djguzmanc/upload_ms
+    #image: djguzmanc/upload_ms
     command: bash -c "sleep 40 && rm -f tmp/pids/server.pid && bundle exec rails db:migrate && bundle exec rails s -p 3002 -b '0.0.0.0'"
     ports: 
       - "3002:3002"
