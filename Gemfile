@@ -34,7 +34,7 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'carrierwave', '~> 1.0'
 
 # Fog
-gem "fog"
+# gem "fog"
 
 #Dockerization
 gem 'therubyracer', :platforms => :ruby
